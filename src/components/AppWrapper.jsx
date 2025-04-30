@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Box } from '@mui/material';
 import MenuScreen from './MenuScreen';
+import Leaderboard from './LeaderboardScreen';
+import SettingsScreen from './SettingsScreen';
+import AboutScreen from './AboutScreen';
+import PlayScreen from './PlayScreen';
 
 const AppWrapper = () => {
+
+  const [screen, setScreen] = useState('Menu'); // 'Menu' | 'Play' | 'Leaderboard' | 'Settings' | 'About'
+
   return (
     <Box
       sx={{
@@ -29,7 +36,11 @@ const AppWrapper = () => {
           textAlign: 'center',
         }}
       >
-        <MenuScreen />
+        {screen === 'Menu' && <MenuScreen setScreen={setScreen}  /> }
+        {screen === 'Play' && <PlayScreen setScreen={setScreen} /> }
+        {screen === 'Settings' && <SettingsScreen /> }       
+        {screen === 'Leaderboard' && <Leaderboard /> }
+        {screen === 'About' && <AboutScreen setScreen={setScreen} /> }        
       </Box>
     </Box>
   );
