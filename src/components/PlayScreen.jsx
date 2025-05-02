@@ -14,9 +14,13 @@ const PlayScreen = ({setScreen}) => {
   
   const { width, height } = useWindowSize();
 
+  const getRandomQuestions = (count = 10) => {
+    const shuffled = [...questionsData].sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+  };
+
   useEffect(() => {
-    // Load and optionally shuffle questions
-    setQuestions(questionsData.slice(0, 10));
+    setQuestions(getRandomQuestions());
   }, []);
 
   const handleSubmit = () => {

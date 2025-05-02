@@ -1,13 +1,4003 @@
 [
-    { "question": "What is 3 + 4?", "answer": 7 },
-    { "question": "What is 6 - 2?", "answer": 4 },
-    { "question": "What is 5 + 5?", "answer": 10 },
-    { "question": "What is 10 - 3?", "answer": 7 },
-    { "question": "What is 2 + 9?", "answer": 11 },
-    { "question": "What is 8 - 6?", "answer": 2 },
-    { "question": "What is 4 + 1?", "answer": 5 },
-    { "question": "What is 7 - 5?", "answer": 2 },
-    { "question": "What is 1 + 6?", "answer": 7 },
-    { "question": "What is 9 - 4?", "answer": 5 }
+    {
+      "question": "What is 5 X 5?",
+      "answer": 25
+    },
+    {
+      "question": "What is 1/2 of 30?",
+      "answer": 15
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 1/4 of 80?",
+      "answer": 20
+    },
+    {
+      "question": "What is 32 + 56?",
+      "answer": 88
+    },
+    {
+      "question": "What is 2 X 8?",
+      "answer": 16
+    },
+    {
+      "question": "What is 94 - 4?",
+      "answer": 90
+    },
+    {
+      "question": "What is 5 X 7?",
+      "answer": 35
+    },
+    {
+      "question": "What is 5 X 5?",
+      "answer": 25
+    },
+    {
+      "question": "What is 27 + 61?",
+      "answer": 88
+    },
+    {
+      "question": "What is 98 - 7?",
+      "answer": 91
+    },
+    {
+      "question": "What is 97 + 2?",
+      "answer": 99
+    },
+    {
+      "question": "What is 62 - 1?",
+      "answer": 61
+    },
+    {
+      "question": "What is 1/4 of 20?",
+      "answer": 5
+    },
+    {
+      "question": "What is 19 - 7?",
+      "answer": 12
+    },
+    {
+      "question": "What is 25 - 2?",
+      "answer": 23
+    },
+    {
+      "question": "What is 83 + 13?",
+      "answer": 96
+    },
+    {
+      "question": "What is 1/4 of 36?",
+      "answer": 9
+    },
+    {
+      "question": "What is 1/2 of 88?",
+      "answer": 44
+    },
+    {
+      "question": "What is 1/4 of 72?",
+      "answer": 18
+    },
+    {
+      "question": "What is 37 - 5?",
+      "answer": 32
+    },
+    {
+      "question": "What is 3 + 73?",
+      "answer": 76
+    },
+    {
+      "question": "What is 10 X 6?",
+      "answer": 60
+    },
+    {
+      "question": "What is 1/4 of 52?",
+      "answer": 13
+    },
+    {
+      "question": "What is 34 + 28?",
+      "answer": 62
+    },
+    {
+      "question": "What is 89 - 6?",
+      "answer": 83
+    },
+    {
+      "question": "What is 2 X 10?",
+      "answer": 20
+    },
+    {
+      "question": "What is 1/2 of 4?",
+      "answer": 2
+    },
+    {
+      "question": "What is 3 X 5?",
+      "answer": 15
+    },
+    {
+      "question": "What is 89 + 2?",
+      "answer": 91
+    },
+    {
+      "question": "What is 41 + 21?",
+      "answer": 62
+    },
+    {
+      "question": "What is 10 X 9?",
+      "answer": 90
+    },
+    {
+      "question": "What is 67 + 21?",
+      "answer": 88
+    },
+    {
+      "question": "What is 1/2 of 94?",
+      "answer": 47
+    },
+    {
+      "question": "What is 28 - 2?",
+      "answer": 26
+    },
+    {
+      "question": "What is 14 - 1?",
+      "answer": 13
+    },
+    {
+      "question": "What is 2 X 5?",
+      "answer": 10
+    },
+    {
+      "question": "What is 28 + 63?",
+      "answer": 91
+    },
+    {
+      "question": "What is 1/4 of 44?",
+      "answer": 11
+    },
+    {
+      "question": "What is 1/2 of 78?",
+      "answer": 39
+    },
+    {
+      "question": "What is 85 + 5?",
+      "answer": 90
+    },
+    {
+      "question": "What is 86 + 6?",
+      "answer": 92
+    },
+    {
+      "question": "What is 35 + 47?",
+      "answer": 82
+    },
+    {
+      "question": "What is 1/2 of 58?",
+      "answer": 29
+    },
+    {
+      "question": "What is 17 - 4?",
+      "answer": 13
+    },
+    {
+      "question": "What is 56 - 3?",
+      "answer": 53
+    },
+    {
+      "question": "What is 3 X 12?",
+      "answer": 36
+    },
+    {
+      "question": "What is 3 X 1?",
+      "answer": 3
+    },
+    {
+      "question": "What is 29 - 1?",
+      "answer": 28
+    },
+    {
+      "question": "What is 5 X 5?",
+      "answer": 25
+    },
+    {
+      "question": "What is 32 + 12?",
+      "answer": 44
+    },
+    {
+      "question": "What is 58 - 4?",
+      "answer": 54
+    },
+    {
+      "question": "What is 40 + 22?",
+      "answer": 62
+    },
+    {
+      "question": "What is 1/4 of 56?",
+      "answer": 14
+    },
+    {
+      "question": "What is 5 X 8?",
+      "answer": 40
+    },
+    {
+      "question": "What is 37 - 6?",
+      "answer": 31
+    },
+    {
+      "question": "What is 2 X 12?",
+      "answer": 24
+    },
+    {
+      "question": "What is 92 + 1?",
+      "answer": 93
+    },
+    {
+      "question": "What is 14 + 58?",
+      "answer": 72
+    },
+    {
+      "question": "What is 3 X 8?",
+      "answer": 24
+    },
+    {
+      "question": "What is 1/2 of 44?",
+      "answer": 22
+    },
+    {
+      "question": "What is 44 + 7?",
+      "answer": 51
+    },
+    {
+      "question": "What is 1/2 of 78?",
+      "answer": 39
+    },
+    {
+      "question": "What is 64 - 4?",
+      "answer": 60
+    },
+    {
+      "question": "What is 50 + 12?",
+      "answer": 62
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 3 X 11?",
+      "answer": 33
+    },
+    {
+      "question": "What is 13 - 3?",
+      "answer": 10
+    },
+    {
+      "question": "What is 10 X 2?",
+      "answer": 20
+    },
+    {
+      "question": "What is 5 X 4?",
+      "answer": 20
+    },
+    {
+      "question": "What is 78 - 6?",
+      "answer": 72
+    },
+    {
+      "question": "What is 5 X 12?",
+      "answer": 60
+    },
+    {
+      "question": "What is 77 + 7?",
+      "answer": 84
+    },
+    {
+      "question": "What is 1/4 of 60?",
+      "answer": 15
+    },
+    {
+      "question": "What is 1/4 of 8?",
+      "answer": 2
+    },
+    {
+      "question": "What is 3 X 2?",
+      "answer": 6
+    },
+    {
+      "question": "What is 1/4 of 52?",
+      "answer": 13
+    },
+    {
+      "question": "What is 73 + 12?",
+      "answer": 85
+    },
+    {
+      "question": "What is 11 + 76?",
+      "answer": 87
+    },
+    {
+      "question": "What is 79 - 6?",
+      "answer": 73
+    },
+    {
+      "question": "What is 1/4 of 48?",
+      "answer": 12
+    },
+    {
+      "question": "What is 1/4 of 84?",
+      "answer": 21
+    },
+    {
+      "question": "What is 1/4 of 76?",
+      "answer": 19
+    },
+    {
+      "question": "What is 98 + 1?",
+      "answer": 99
+    },
+    {
+      "question": "What is 22 + 10?",
+      "answer": 32
+    },
+    {
+      "question": "What is 63 + 30?",
+      "answer": 93
+    },
+    {
+      "question": "What is 54 + 33?",
+      "answer": 87
+    },
+    {
+      "question": "What is 18 + 28?",
+      "answer": 46
+    },
+    {
+      "question": "What is 17 - 5?",
+      "answer": 12
+    },
+    {
+      "question": "What is 26 - 1?",
+      "answer": 25
+    },
+    {
+      "question": "What is 25 - 1?",
+      "answer": 24
+    },
+    {
+      "question": "What is 2 X 3?",
+      "answer": 6
+    },
+    {
+      "question": "What is 86 - 4?",
+      "answer": 82
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 1/2 of 48?",
+      "answer": 24
+    },
+    {
+      "question": "What is 5 X 1?",
+      "answer": 5
+    },
+    {
+      "question": "What is 10 X 5?",
+      "answer": 50
+    },
+    {
+      "question": "What is 43 + 42?",
+      "answer": 85
+    },
+    {
+      "question": "What is 5 X 8?",
+      "answer": 40
+    },
+    {
+      "question": "What is 2 X 12?",
+      "answer": 24
+    },
+    {
+      "question": "What is 3 X 6?",
+      "answer": 18
+    },
+    {
+      "question": "What is 58 - 1?",
+      "answer": 57
+    },
+    {
+      "question": "What is 45 + 49?",
+      "answer": 94
+    },
+    {
+      "question": "What is 1/2 of 74?",
+      "answer": 37
+    },
+    {
+      "question": "What is 26 - 6?",
+      "answer": 20
+    },
+    {
+      "question": "What is 72 + 23?",
+      "answer": 95
+    },
+    {
+      "question": "What is 19 - 3?",
+      "answer": 16
+    },
+    {
+      "question": "What is 5 X 7?",
+      "answer": 35
+    },
+    {
+      "question": "What is 10 X 8?",
+      "answer": 80
+    },
+    {
+      "question": "What is 10 X 8?",
+      "answer": 80
+    },
+    {
+      "question": "What is 1/4 of 84?",
+      "answer": 21
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 58 + 31?",
+      "answer": 89
+    },
+    {
+      "question": "What is 2 X 11?",
+      "answer": 22
+    },
+    {
+      "question": "What is 1/2 of 74?",
+      "answer": 37
+    },
+    {
+      "question": "What is 1/2 of 70?",
+      "answer": 35
+    },
+    {
+      "question": "What is 65 + 10?",
+      "answer": 75
+    },
+    {
+      "question": "What is 26 - 6?",
+      "answer": 20
+    },
+    {
+      "question": "What is 1/2 of 6?",
+      "answer": 3
+    },
+    {
+      "question": "What is 57 + 30?",
+      "answer": 87
+    },
+    {
+      "question": "What is 3 X 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 1/2 of 18?",
+      "answer": 9
+    },
+    {
+      "question": "What is 43 + 53?",
+      "answer": 96
+    },
+    {
+      "question": "What is 5 X 12?",
+      "answer": 60
+    },
+    {
+      "question": "What is 10 X 7?",
+      "answer": 70
+    },
+    {
+      "question": "What is 37 + 14?",
+      "answer": 51
+    },
+    {
+      "question": "What is 1/2 of 28?",
+      "answer": 14
+    },
+    {
+      "question": "What is 15 - 1?",
+      "answer": 14
+    },
+    {
+      "question": "What is 48 + 21?",
+      "answer": 69
+    },
+    {
+      "question": "What is 5 X 7?",
+      "answer": 35
+    },
+    {
+      "question": "What is 1/4 of 88?",
+      "answer": 22
+    },
+    {
+      "question": "What is 1/4 of 88?",
+      "answer": 22
+    },
+    {
+      "question": "What is 38 + 21?",
+      "answer": 59
+    },
+    {
+      "question": "What is 51 + 5?",
+      "answer": 56
+    },
+    {
+      "question": "What is 1/2 of 86?",
+      "answer": 43
+    },
+    {
+      "question": "What is 68 - 1?",
+      "answer": 67
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 21 + 65?",
+      "answer": 86
+    },
+    {
+      "question": "What is 5 X 8?",
+      "answer": 40
+    },
+    {
+      "question": "What is 1/4 of 4?",
+      "answer": 1
+    },
+    {
+      "question": "What is 37 + 46?",
+      "answer": 83
+    },
+    {
+      "question": "What is 14 - 3?",
+      "answer": 11
+    },
+    {
+      "question": "What is 3 X 11?",
+      "answer": 33
+    },
+    {
+      "question": "What is 5 X 3?",
+      "answer": 15
+    },
+    {
+      "question": "What is 10 X 5?",
+      "answer": 50
+    },
+    {
+      "question": "What is 18 + 56?",
+      "answer": 74
+    },
+    {
+      "question": "What is 10 X 2?",
+      "answer": 20
+    },
+    {
+      "question": "What is 84 + 5?",
+      "answer": 89
+    },
+    {
+      "question": "What is 2 X 10?",
+      "answer": 20
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 18 - 8?",
+      "answer": 10
+    },
+    {
+      "question": "What is 65 + 11?",
+      "answer": 76
+    },
+    {
+      "question": "What is 2 X 6?",
+      "answer": 12
+    },
+    {
+      "question": "What is 23 + 66?",
+      "answer": 89
+    },
+    {
+      "question": "What is 19 - 2?",
+      "answer": 17
+    },
+    {
+      "question": "What is 3 X 1?",
+      "answer": 3
+    },
+    {
+      "question": "What is 3 X 10?",
+      "answer": 30
+    },
+    {
+      "question": "What is 10 X 11?",
+      "answer": 110
+    },
+    {
+      "question": "What is 10 X 9?",
+      "answer": 90
+    },
+    {
+      "question": "What is 14 - 3?",
+      "answer": 11
+    },
+    {
+      "question": "What is 10 X 3?",
+      "answer": 30
+    },
+    {
+      "question": "What is 1/2 of 70?",
+      "answer": 35
+    },
+    {
+      "question": "What is 10 X 9?",
+      "answer": 90
+    },
+    {
+      "question": "What is 8 + 44?",
+      "answer": 52
+    },
+    {
+      "question": "What is 32 + 18?",
+      "answer": 50
+    },
+    {
+      "question": "What is 89 + 3?",
+      "answer": 92
+    },
+    {
+      "question": "What is 3 X 6?",
+      "answer": 18
+    },
+    {
+      "question": "What is 1/4 of 56?",
+      "answer": 14
+    },
+    {
+      "question": "What is 1/2 of 30?",
+      "answer": 15
+    },
+    {
+      "question": "What is 35 - 1?",
+      "answer": 34
+    },
+    {
+      "question": "What is 1/2 of 96?",
+      "answer": 48
+    },
+    {
+      "question": "What is 5 X 10?",
+      "answer": 50
+    },
+    {
+      "question": "What is 47 - 3?",
+      "answer": 44
+    },
+    {
+      "question": "What is 56 - 1?",
+      "answer": 55
+    },
+    {
+      "question": "What is 1/4 of 96?",
+      "answer": 24
+    },
+    {
+      "question": "What is 19 - 8?",
+      "answer": 11
+    },
+    {
+      "question": "What is 1/2 of 78?",
+      "answer": 39
+    },
+    {
+      "question": "What is 16 - 1?",
+      "answer": 15
+    },
+    {
+      "question": "What is 1/2 of 100?",
+      "answer": 50
+    },
+    {
+      "question": "What is 1/2 of 90?",
+      "answer": 45
+    },
+    {
+      "question": "What is 10 X 9?",
+      "answer": 90
+    },
+    {
+      "question": "What is 17 - 6?",
+      "answer": 11
+    },
+    {
+      "question": "What is 35 - 5?",
+      "answer": 30
+    },
+    {
+      "question": "What is 45 - 3?",
+      "answer": 42
+    },
+    {
+      "question": "What is 1/4 of 24?",
+      "answer": 6
+    },
+    {
+      "question": "What is 61 + 17?",
+      "answer": 78
+    },
+    {
+      "question": "What is 5 X 11?",
+      "answer": 55
+    },
+    {
+      "question": "What is 32 + 59?",
+      "answer": 91
+    },
+    {
+      "question": "What is 7 + 5?",
+      "answer": 12
+    },
+    {
+      "question": "What is 12 + 32?",
+      "answer": 44
+    },
+    {
+      "question": "What is 36 + 15?",
+      "answer": 51
+    },
+    {
+      "question": "What is 98 - 7?",
+      "answer": 91
+    },
+    {
+      "question": "What is 1/2 of 66?",
+      "answer": 33
+    },
+    {
+      "question": "What is 63 + 33?",
+      "answer": 96
+    },
+    {
+      "question": "What is 26 - 4?",
+      "answer": 22
+    },
+    {
+      "question": "What is 2 X 3?",
+      "answer": 6
+    },
+    {
+      "question": "What is 11 - 1?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/2 of 24?",
+      "answer": 12
+    },
+    {
+      "question": "What is 2 X 1?",
+      "answer": 2
+    },
+    {
+      "question": "What is 36 + 19?",
+      "answer": 55
+    },
+    {
+      "question": "What is 1/4 of 56?",
+      "answer": 14
+    },
+    {
+      "question": "What is 55 - 2?",
+      "answer": 53
+    },
+    {
+      "question": "What is 69 + 19?",
+      "answer": 88
+    },
+    {
+      "question": "What is 32 - 1?",
+      "answer": 31
+    },
+    {
+      "question": "What is 9 + 33?",
+      "answer": 42
+    },
+    {
+      "question": "What is 5 X 11?",
+      "answer": 55
+    },
+    {
+      "question": "What is 5 X 9?",
+      "answer": 45
+    },
+    {
+      "question": "What is 26 + 57?",
+      "answer": 83
+    },
+    {
+      "question": "What is 2 X 4?",
+      "answer": 8
+    },
+    {
+      "question": "What is 3 X 5?",
+      "answer": 15
+    },
+    {
+      "question": "What is 84 + 2?",
+      "answer": 86
+    },
+    {
+      "question": "What is 5 X 9?",
+      "answer": 45
+    },
+    {
+      "question": "What is 12 - 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 5 X 12?",
+      "answer": 60
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 73 + 12?",
+      "answer": 85
+    },
+    {
+      "question": "What is 1/4 of 72?",
+      "answer": 18
+    },
+    {
+      "question": "What is 5 X 11?",
+      "answer": 55
+    },
+    {
+      "question": "What is 28 + 2?",
+      "answer": 30
+    },
+    {
+      "question": "What is 3 X 5?",
+      "answer": 15
+    },
+    {
+      "question": "What is 79 + 1?",
+      "answer": 80
+    },
+    {
+      "question": "What is 1/4 of 68?",
+      "answer": 17
+    },
+    {
+      "question": "What is 90 + 5?",
+      "answer": 95
+    },
+    {
+      "question": "What is 69 + 16?",
+      "answer": 85
+    },
+    {
+      "question": "What is 3 X 11?",
+      "answer": 33
+    },
+    {
+      "question": "What is 1/4 of 8?",
+      "answer": 2
+    },
+    {
+      "question": "What is 1/2 of 8?",
+      "answer": 4
+    },
+    {
+      "question": "What is 1/2 of 64?",
+      "answer": 32
+    },
+    {
+      "question": "What is 24 - 2?",
+      "answer": 22
+    },
+    {
+      "question": "What is 67 + 4?",
+      "answer": 71
+    },
+    {
+      "question": "What is 7 + 3?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/4 of 52?",
+      "answer": 13
+    },
+    {
+      "question": "What is 1/4 of 4?",
+      "answer": 1
+    },
+    {
+      "question": "What is 10 X 9?",
+      "answer": 90
+    },
+    {
+      "question": "What is 1/4 of 12?",
+      "answer": 3
+    },
+    {
+      "question": "What is 92 + 7?",
+      "answer": 99
+    },
+    {
+      "question": "What is 10 X 4?",
+      "answer": 40
+    },
+    {
+      "question": "What is 16 - 6?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/2 of 16?",
+      "answer": 8
+    },
+    {
+      "question": "What is 1/2 of 40?",
+      "answer": 20
+    },
+    {
+      "question": "What is 7 + 56?",
+      "answer": 63
+    },
+    {
+      "question": "What is 5 X 8?",
+      "answer": 40
+    },
+    {
+      "question": "What is 42 + 19?",
+      "answer": 61
+    },
+    {
+      "question": "What is 79 + 20?",
+      "answer": 99
+    },
+    {
+      "question": "What is 87 + 11?",
+      "answer": 98
+    },
+    {
+      "question": "What is 5 X 5?",
+      "answer": 25
+    },
+    {
+      "question": "What is 75 + 16?",
+      "answer": 91
+    },
+    {
+      "question": "What is 1/4 of 80?",
+      "answer": 20
+    },
+    {
+      "question": "What is 2 X 5?",
+      "answer": 10
+    },
+    {
+      "question": "What is 91 + 3?",
+      "answer": 94
+    },
+    {
+      "question": "What is 59 + 13?",
+      "answer": 72
+    },
+    {
+      "question": "What is 10 X 7?",
+      "answer": 70
+    },
+    {
+      "question": "What is 84 - 4?",
+      "answer": 80
+    },
+    {
+      "question": "What is 10 X 10?",
+      "answer": 100
+    },
+    {
+      "question": "What is 2 X 3?",
+      "answer": 6
+    },
+    {
+      "question": "What is 19 + 33?",
+      "answer": 52
+    },
+    {
+      "question": "What is 1/2 of 44?",
+      "answer": 22
+    },
+    {
+      "question": "What is 22 - 2?",
+      "answer": 20
+    },
+    {
+      "question": "What is 22 - 2?",
+      "answer": 20
+    },
+    {
+      "question": "What is 39 + 43?",
+      "answer": 82
+    },
+    {
+      "question": "What is 2 X 12?",
+      "answer": 24
+    },
+    {
+      "question": "What is 42 + 18?",
+      "answer": 60
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 1/2 of 96?",
+      "answer": 48
+    },
+    {
+      "question": "What is 53 + 2?",
+      "answer": 55
+    },
+    {
+      "question": "What is 70 + 1?",
+      "answer": 71
+    },
+    {
+      "question": "What is 38 + 15?",
+      "answer": 53
+    },
+    {
+      "question": "What is 1/2 of 82?",
+      "answer": 41
+    },
+    {
+      "question": "What is 61 + 4?",
+      "answer": 65
+    },
+    {
+      "question": "What is 27 - 7?",
+      "answer": 20
+    },
+    {
+      "question": "What is 10 X 2?",
+      "answer": 20
+    },
+    {
+      "question": "What is 27 - 1?",
+      "answer": 26
+    },
+    {
+      "question": "What is 65 + 4?",
+      "answer": 69
+    },
+    {
+      "question": "What is 77 - 5?",
+      "answer": 72
+    },
+    {
+      "question": "What is 1/4 of 32?",
+      "answer": 8
+    },
+    {
+      "question": "What is 89 + 9?",
+      "answer": 98
+    },
+    {
+      "question": "What is 43 + 2?",
+      "answer": 45
+    },
+    {
+      "question": "What is 23 - 1?",
+      "answer": 22
+    },
+    {
+      "question": "What is 1/2 of 66?",
+      "answer": 33
+    },
+    {
+      "question": "What is 11 + 29?",
+      "answer": 40
+    },
+    {
+      "question": "What is 48 + 19?",
+      "answer": 67
+    },
+    {
+      "question": "What is 1/2 of 94?",
+      "answer": 47
+    },
+    {
+      "question": "What is 52 + 24?",
+      "answer": 76
+    },
+    {
+      "question": "What is 16 - 6?",
+      "answer": 10
+    },
+    {
+      "question": "What is 57 - 2?",
+      "answer": 55
+    },
+    {
+      "question": "What is 65 + 13?",
+      "answer": 78
+    },
+    {
+      "question": "What is 16 - 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 68 + 18?",
+      "answer": 86
+    },
+    {
+      "question": "What is 1/2 of 52?",
+      "answer": 26
+    },
+    {
+      "question": "What is 16 + 78?",
+      "answer": 94
+    },
+    {
+      "question": "What is 18 + 42?",
+      "answer": 60
+    },
+    {
+      "question": "What is 84 + 10?",
+      "answer": 94
+    },
+    {
+      "question": "What is 99 - 7?",
+      "answer": 92
+    },
+    {
+      "question": "What is 1/2 of 68?",
+      "answer": 34
+    },
+    {
+      "question": "What is 92 + 1?",
+      "answer": 93
+    },
+    {
+      "question": "What is 19 + 61?",
+      "answer": 80
+    },
+    {
+      "question": "What is 1/4 of 12?",
+      "answer": 3
+    },
+    {
+      "question": "What is 54 + 18?",
+      "answer": 72
+    },
+    {
+      "question": "What is 32 + 63?",
+      "answer": 95
+    },
+    {
+      "question": "What is 15 - 5?",
+      "answer": 10
+    },
+    {
+      "question": "What is 14 - 4?",
+      "answer": 10
+    },
+    {
+      "question": "What is 6 + 47?",
+      "answer": 53
+    },
+    {
+      "question": "What is 1/4 of 92?",
+      "answer": 23
+    },
+    {
+      "question": "What is 93 + 2?",
+      "answer": 95
+    },
+    {
+      "question": "What is 1/2 of 100?",
+      "answer": 50
+    },
+    {
+      "question": "What is 2 X 8?",
+      "answer": 16
+    },
+    {
+      "question": "What is 1/4 of 52?",
+      "answer": 13
+    },
+    {
+      "question": "What is 24 - 1?",
+      "answer": 23
+    },
+    {
+      "question": "What is 35 - 5?",
+      "answer": 30
+    },
+    {
+      "question": "What is 25 + 5?",
+      "answer": 30
+    },
+    {
+      "question": "What is 1/4 of 96?",
+      "answer": 24
+    },
+    {
+      "question": "What is 1/4 of 12?",
+      "answer": 3
+    },
+    {
+      "question": "What is 46 + 16?",
+      "answer": 62
+    },
+    {
+      "question": "What is 5 X 5?",
+      "answer": 25
+    },
+    {
+      "question": "What is 5 X 5?",
+      "answer": 25
+    },
+    {
+      "question": "What is 3 X 2?",
+      "answer": 6
+    },
+    {
+      "question": "What is 37 + 35?",
+      "answer": 72
+    },
+    {
+      "question": "What is 11 + 49?",
+      "answer": 60
+    },
+    {
+      "question": "What is 26 - 3?",
+      "answer": 23
+    },
+    {
+      "question": "What is 69 - 9?",
+      "answer": 60
+    },
+    {
+      "question": "What is 1/4 of 48?",
+      "answer": 12
+    },
+    {
+      "question": "What is 36 + 31?",
+      "answer": 67
+    },
+    {
+      "question": "What is 1/4 of 4?",
+      "answer": 1
+    },
+    {
+      "question": "What is 17 - 7?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/4 of 36?",
+      "answer": 9
+    },
+    {
+      "question": "What is 47 + 30?",
+      "answer": 77
+    },
+    {
+      "question": "What is 35 + 32?",
+      "answer": 67
+    },
+    {
+      "question": "What is 72 + 9?",
+      "answer": 81
+    },
+    {
+      "question": "What is 3 X 3?",
+      "answer": 9
+    },
+    {
+      "question": "What is 1/4 of 24?",
+      "answer": 6
+    },
+    {
+      "question": "What is 12 - 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 74 + 2?",
+      "answer": 76
+    },
+    {
+      "question": "What is 2 X 7?",
+      "answer": 14
+    },
+    {
+      "question": "What is 10 X 7?",
+      "answer": 70
+    },
+    {
+      "question": "What is 70 + 25?",
+      "answer": 95
+    },
+    {
+      "question": "What is 83 - 1?",
+      "answer": 82
+    },
+    {
+      "question": "What is 1/4 of 12?",
+      "answer": 3
+    },
+    {
+      "question": "What is 59 - 1?",
+      "answer": 58
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 61 + 27?",
+      "answer": 88
+    },
+    {
+      "question": "What is 13 + 57?",
+      "answer": 70
+    },
+    {
+      "question": "What is 39 - 4?",
+      "answer": 35
+    },
+    {
+      "question": "What is 2 X 10?",
+      "answer": 20
+    },
+    {
+      "question": "What is 5 X 5?",
+      "answer": 25
+    },
+    {
+      "question": "What is 10 X 9?",
+      "answer": 90
+    },
+    {
+      "question": "What is 1/4 of 96?",
+      "answer": 24
+    },
+    {
+      "question": "What is 47 - 3?",
+      "answer": 44
+    },
+    {
+      "question": "What is 41 - 1?",
+      "answer": 40
+    },
+    {
+      "question": "What is 59 - 3?",
+      "answer": 56
+    },
+    {
+      "question": "What is 3 X 11?",
+      "answer": 33
+    },
+    {
+      "question": "What is 1/2 of 16?",
+      "answer": 8
+    },
+    {
+      "question": "What is 1/2 of 60?",
+      "answer": 30
+    },
+    {
+      "question": "What is 28 - 1?",
+      "answer": 27
+    },
+    {
+      "question": "What is 1/2 of 76?",
+      "answer": 38
+    },
+    {
+      "question": "What is 84 + 15?",
+      "answer": 99
+    },
+    {
+      "question": "What is 18 - 6?",
+      "answer": 12
+    },
+    {
+      "question": "What is 1/2 of 56?",
+      "answer": 28
+    },
+    {
+      "question": "What is 3 X 3?",
+      "answer": 9
+    },
+    {
+      "question": "What is 93 - 3?",
+      "answer": 90
+    },
+    {
+      "question": "What is 1 + 18?",
+      "answer": 19
+    },
+    {
+      "question": "What is 1/2 of 48?",
+      "answer": 24
+    },
+    {
+      "question": "What is 2 X 3?",
+      "answer": 6
+    },
+    {
+      "question": "What is 10 X 8?",
+      "answer": 80
+    },
+    {
+      "question": "What is 84 + 11?",
+      "answer": 95
+    },
+    {
+      "question": "What is 18 - 7?",
+      "answer": 11
+    },
+    {
+      "question": "What is 1/4 of 76?",
+      "answer": 19
+    },
+    {
+      "question": "What is 52 + 8?",
+      "answer": 60
+    },
+    {
+      "question": "What is 1/2 of 38?",
+      "answer": 19
+    },
+    {
+      "question": "What is 84 + 7?",
+      "answer": 91
+    },
+    {
+      "question": "What is 2 X 4?",
+      "answer": 8
+    },
+    {
+      "question": "What is 83 + 4?",
+      "answer": 87
+    },
+    {
+      "question": "What is 19 - 8?",
+      "answer": 11
+    },
+    {
+      "question": "What is 2 X 7?",
+      "answer": 14
+    },
+    {
+      "question": "What is 95 - 4?",
+      "answer": 91
+    },
+    {
+      "question": "What is 13 + 51?",
+      "answer": 64
+    },
+    {
+      "question": "What is 74 + 5?",
+      "answer": 79
+    },
+    {
+      "question": "What is 33 - 2?",
+      "answer": 31
+    },
+    {
+      "question": "What is 2 X 5?",
+      "answer": 10
+    },
+    {
+      "question": "What is 25 - 2?",
+      "answer": 23
+    },
+    {
+      "question": "What is 16 - 3?",
+      "answer": 13
+    },
+    {
+      "question": "What is 2 X 7?",
+      "answer": 14
+    },
+    {
+      "question": "What is 1/2 of 2?",
+      "answer": 1
+    },
+    {
+      "question": "What is 16 - 2?",
+      "answer": 14
+    },
+    {
+      "question": "What is 10 X 7?",
+      "answer": 70
+    },
+    {
+      "question": "What is 5 X 10?",
+      "answer": 50
+    },
+    {
+      "question": "What is 45 + 40?",
+      "answer": 85
+    },
+    {
+      "question": "What is 56 + 38?",
+      "answer": 94
+    },
+    {
+      "question": "What is 1/2 of 30?",
+      "answer": 15
+    },
+    {
+      "question": "What is 79 + 5?",
+      "answer": 84
+    },
+    {
+      "question": "What is 5 X 7?",
+      "answer": 35
+    },
+    {
+      "question": "What is 69 + 11?",
+      "answer": 80
+    },
+    {
+      "question": "What is 1/2 of 14?",
+      "answer": 7
+    },
+    {
+      "question": "What is 37 - 5?",
+      "answer": 32
+    },
+    {
+      "question": "What is 5 X 9?",
+      "answer": 45
+    },
+    {
+      "question": "What is 72 + 15?",
+      "answer": 87
+    },
+    {
+      "question": "What is 3 X 5?",
+      "answer": 15
+    },
+    {
+      "question": "What is 38 - 8?",
+      "answer": 30
+    },
+    {
+      "question": "What is 14 - 4?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/4 of 4?",
+      "answer": 1
+    },
+    {
+      "question": "What is 27 - 7?",
+      "answer": 20
+    },
+    {
+      "question": "What is 3 X 3?",
+      "answer": 9
+    },
+    {
+      "question": "What is 1/2 of 8?",
+      "answer": 4
+    },
+    {
+      "question": "What is 2 X 5?",
+      "answer": 10
+    },
+    {
+      "question": "What is 18 - 3?",
+      "answer": 15
+    },
+    {
+      "question": "What is 1/2 of 54?",
+      "answer": 27
+    },
+    {
+      "question": "What is 1/2 of 52?",
+      "answer": 26
+    },
+    {
+      "question": "What is 56 + 35?",
+      "answer": 91
+    },
+    {
+      "question": "What is 2 X 3?",
+      "answer": 6
+    },
+    {
+      "question": "What is 19 - 3?",
+      "answer": 16
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/2 of 64?",
+      "answer": 32
+    },
+    {
+      "question": "What is 2 X 10?",
+      "answer": 20
+    },
+    {
+      "question": "What is 1/2 of 68?",
+      "answer": 34
+    },
+    {
+      "question": "What is 10 X 3?",
+      "answer": 30
+    },
+    {
+      "question": "What is 85 - 3?",
+      "answer": 82
+    },
+    {
+      "question": "What is 56 - 5?",
+      "answer": 51
+    },
+    {
+      "question": "What is 1/2 of 4?",
+      "answer": 2
+    },
+    {
+      "question": "What is 23 - 3?",
+      "answer": 20
+    },
+    {
+      "question": "What is 5 X 10?",
+      "answer": 50
+    },
+    {
+      "question": "What is 12 + 9?",
+      "answer": 21
+    },
+    {
+      "question": "What is 32 + 29?",
+      "answer": 61
+    },
+    {
+      "question": "What is 5 X 10?",
+      "answer": 50
+    },
+    {
+      "question": "What is 43 - 3?",
+      "answer": 40
+    },
+    {
+      "question": "What is 40 + 36?",
+      "answer": 76
+    },
+    {
+      "question": "What is 36 - 1?",
+      "answer": 35
+    },
+    {
+      "question": "What is 94 + 2?",
+      "answer": 96
+    },
+    {
+      "question": "What is 1/2 of 74?",
+      "answer": 37
+    },
+    {
+      "question": "What is 2 X 4?",
+      "answer": 8
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/2 of 38?",
+      "answer": 19
+    },
+    {
+      "question": "What is 42 + 43?",
+      "answer": 85
+    },
+    {
+      "question": "What is 69 - 5?",
+      "answer": 64
+    },
+    {
+      "question": "What is 43 + 37?",
+      "answer": 80
+    },
+    {
+      "question": "What is 71 + 11?",
+      "answer": 82
+    },
+    {
+      "question": "What is 1/2 of 36?",
+      "answer": 18
+    },
+    {
+      "question": "What is 91 + 8?",
+      "answer": 99
+    },
+    {
+      "question": "What is 70 + 7?",
+      "answer": 77
+    },
+    {
+      "question": "What is 3 X 3?",
+      "answer": 9
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 1/2 of 58?",
+      "answer": 29
+    },
+    {
+      "question": "What is 3 X 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 15 + 83?",
+      "answer": 98
+    },
+    {
+      "question": "What is 1/2 of 94?",
+      "answer": 47
+    },
+    {
+      "question": "What is 5 X 7?",
+      "answer": 35
+    },
+    {
+      "question": "What is 10 X 1?",
+      "answer": 10
+    },
+    {
+      "question": "What is 3 X 3?",
+      "answer": 9
+    },
+    {
+      "question": "What is 1/2 of 82?",
+      "answer": 41
+    },
+    {
+      "question": "What is 5 X 10?",
+      "answer": 50
+    },
+    {
+      "question": "What is 2 X 12?",
+      "answer": 24
+    },
+    {
+      "question": "What is 56 + 5?",
+      "answer": 61
+    },
+    {
+      "question": "What is 89 + 5?",
+      "answer": 94
+    },
+    {
+      "question": "What is 5 X 9?",
+      "answer": 45
+    },
+    {
+      "question": "What is 56 - 1?",
+      "answer": 55
+    },
+    {
+      "question": "What is 2 X 1?",
+      "answer": 2
+    },
+    {
+      "question": "What is 49 - 9?",
+      "answer": 40
+    },
+    {
+      "question": "What is 1/4 of 88?",
+      "answer": 22
+    },
+    {
+      "question": "What is 65 + 22?",
+      "answer": 87
+    },
+    {
+      "question": "What is 50 + 24?",
+      "answer": 74
+    },
+    {
+      "question": "What is 2 X 5?",
+      "answer": 10
+    },
+    {
+      "question": "What is 75 + 12?",
+      "answer": 87
+    },
+    {
+      "question": "What is 5 X 5?",
+      "answer": 25
+    },
+    {
+      "question": "What is 35 - 3?",
+      "answer": 32
+    },
+    {
+      "question": "What is 35 - 4?",
+      "answer": 31
+    },
+    {
+      "question": "What is 33 + 36?",
+      "answer": 69
+    },
+    {
+      "question": "What is 1/2 of 62?",
+      "answer": 31
+    },
+    {
+      "question": "What is 1/4 of 92?",
+      "answer": 23
+    },
+    {
+      "question": "What is 27 - 2?",
+      "answer": 25
+    },
+    {
+      "question": "What is 3 X 1?",
+      "answer": 3
+    },
+    {
+      "question": "What is 2 X 3?",
+      "answer": 6
+    },
+    {
+      "question": "What is 17 - 2?",
+      "answer": 15
+    },
+    {
+      "question": "What is 19 - 5?",
+      "answer": 14
+    },
+    {
+      "question": "What is 3 X 2?",
+      "answer": 6
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 3 X 7?",
+      "answer": 21
+    },
+    {
+      "question": "What is 16 - 1?",
+      "answer": 15
+    },
+    {
+      "question": "What is 75 + 23?",
+      "answer": 98
+    },
+    {
+      "question": "What is 33 + 44?",
+      "answer": 77
+    },
+    {
+      "question": "What is 58 + 12?",
+      "answer": 70
+    },
+    {
+      "question": "What is 77 + 9?",
+      "answer": 86
+    },
+    {
+      "question": "What is 2 X 2?",
+      "answer": 4
+    },
+    {
+      "question": "What is 1/2 of 52?",
+      "answer": 26
+    },
+    {
+      "question": "What is 70 + 15?",
+      "answer": 85
+    },
+    {
+      "question": "What is 26 + 35?",
+      "answer": 61
+    },
+    {
+      "question": "What is 43 + 50?",
+      "answer": 93
+    },
+    {
+      "question": "What is 38 - 8?",
+      "answer": 30
+    },
+    {
+      "question": "What is 73 + 26?",
+      "answer": 99
+    },
+    {
+      "question": "What is 14 + 55?",
+      "answer": 69
+    },
+    {
+      "question": "What is 10 X 12?",
+      "answer": 120
+    },
+    {
+      "question": "What is 82 + 4?",
+      "answer": 86
+    },
+    {
+      "question": "What is 1/4 of 88?",
+      "answer": 22
+    },
+    {
+      "question": "What is 10 X 3?",
+      "answer": 30
+    },
+    {
+      "question": "What is 10 X 6?",
+      "answer": 60
+    },
+    {
+      "question": "What is 78 + 6?",
+      "answer": 84
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 12 - 1?",
+      "answer": 11
+    },
+    {
+      "question": "What is 5 X 6?",
+      "answer": 30
+    },
+    {
+      "question": "What is 1/4 of 48?",
+      "answer": 12
+    },
+    {
+      "question": "What is 5 X 1?",
+      "answer": 5
+    },
+    {
+      "question": "What is 10 X 4?",
+      "answer": 40
+    },
+    {
+      "question": "What is 10 X 1?",
+      "answer": 10
+    },
+    {
+      "question": "What is 2 X 12?",
+      "answer": 24
+    },
+    {
+      "question": "What is 1/4 of 36?",
+      "answer": 9
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 5 X 7?",
+      "answer": 35
+    },
+    {
+      "question": "What is 31 + 55?",
+      "answer": 86
+    },
+    {
+      "question": "What is 28 - 8?",
+      "answer": 20
+    },
+    {
+      "question": "What is 5 X 1?",
+      "answer": 5
+    },
+    {
+      "question": "What is 43 + 8?",
+      "answer": 51
+    },
+    {
+      "question": "What is 10 X 5?",
+      "answer": 50
+    },
+    {
+      "question": "What is 2 X 6?",
+      "answer": 12
+    },
+    {
+      "question": "What is 3 X 1?",
+      "answer": 3
+    },
+    {
+      "question": "What is 78 + 18?",
+      "answer": 96
+    },
+    {
+      "question": "What is 2 X 7?",
+      "answer": 14
+    },
+    {
+      "question": "What is 71 + 6?",
+      "answer": 77
+    },
+    {
+      "question": "What is 46 - 5?",
+      "answer": 41
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 5 X 4?",
+      "answer": 20
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 5 X 6?",
+      "answer": 30
+    },
+    {
+      "question": "What is 10 X 2?",
+      "answer": 20
+    },
+    {
+      "question": "What is 86 - 1?",
+      "answer": 85
+    },
+    {
+      "question": "What is 23 + 35?",
+      "answer": 58
+    },
+    {
+      "question": "What is 34 + 40?",
+      "answer": 74
+    },
+    {
+      "question": "What is 95 + 3?",
+      "answer": 98
+    },
+    {
+      "question": "What is 10 X 12?",
+      "answer": 120
+    },
+    {
+      "question": "What is 1/4 of 92?",
+      "answer": 23
+    },
+    {
+      "question": "What is 3 X 11?",
+      "answer": 33
+    },
+    {
+      "question": "What is 17 - 1?",
+      "answer": 16
+    },
+    {
+      "question": "What is 57 + 29?",
+      "answer": 86
+    },
+    {
+      "question": "What is 1/4 of 48?",
+      "answer": 12
+    },
+    {
+      "question": "What is 58 - 2?",
+      "answer": 56
+    },
+    {
+      "question": "What is 16 - 3?",
+      "answer": 13
+    },
+    {
+      "question": "What is 1/2 of 34?",
+      "answer": 17
+    },
+    {
+      "question": "What is 3 X 12?",
+      "answer": 36
+    },
+    {
+      "question": "What is 2 X 5?",
+      "answer": 10
+    },
+    {
+      "question": "What is 58 + 29?",
+      "answer": 87
+    },
+    {
+      "question": "What is 50 + 34?",
+      "answer": 84
+    },
+    {
+      "question": "What is 79 - 3?",
+      "answer": 76
+    },
+    {
+      "question": "What is 45 + 22?",
+      "answer": 67
+    },
+    {
+      "question": "What is 1/2 of 94?",
+      "answer": 47
+    },
+    {
+      "question": "What is 1/2 of 28?",
+      "answer": 14
+    },
+    {
+      "question": "What is 10 X 12?",
+      "answer": 120
+    },
+    {
+      "question": "What is 97 + 2?",
+      "answer": 99
+    },
+    {
+      "question": "What is 67 + 5?",
+      "answer": 72
+    },
+    {
+      "question": "What is 1/2 of 48?",
+      "answer": 24
+    },
+    {
+      "question": "What is 45 + 36?",
+      "answer": 81
+    },
+    {
+      "question": "What is 1/4 of 92?",
+      "answer": 23
+    },
+    {
+      "question": "What is 79 - 8?",
+      "answer": 71
+    },
+    {
+      "question": "What is 57 - 3?",
+      "answer": 54
+    },
+    {
+      "question": "What is 10 X 9?",
+      "answer": 90
+    },
+    {
+      "question": "What is 2 X 1?",
+      "answer": 2
+    },
+    {
+      "question": "What is 3 X 12?",
+      "answer": 36
+    },
+    {
+      "question": "What is 92 + 2?",
+      "answer": 94
+    },
+    {
+      "question": "What is 8 + 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 11 + 69?",
+      "answer": 80
+    },
+    {
+      "question": "What is 39 + 18?",
+      "answer": 57
+    },
+    {
+      "question": "What is 75 + 11?",
+      "answer": 86
+    },
+    {
+      "question": "What is 94 + 1?",
+      "answer": 95
+    },
+    {
+      "question": "What is 74 + 17?",
+      "answer": 91
+    },
+    {
+      "question": "What is 1/2 of 8?",
+      "answer": 4
+    },
+    {
+      "question": "What is 3 X 7?",
+      "answer": 21
+    },
+    {
+      "question": "What is 69 + 15?",
+      "answer": 84
+    },
+    {
+      "question": "What is 61 + 27?",
+      "answer": 88
+    },
+    {
+      "question": "What is 1/4 of 72?",
+      "answer": 18
+    },
+    {
+      "question": "What is 14 + 70?",
+      "answer": 84
+    },
+    {
+      "question": "What is 1/2 of 44?",
+      "answer": 22
+    },
+    {
+      "question": "What is 3 X 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 3 + 55?",
+      "answer": 58
+    },
+    {
+      "question": "What is 5 X 3?",
+      "answer": 15
+    },
+    {
+      "question": "What is 50 + 7?",
+      "answer": 57
+    },
+    {
+      "question": "What is 47 - 7?",
+      "answer": 40
+    },
+    {
+      "question": "What is 93 + 2?",
+      "answer": 95
+    },
+    {
+      "question": "What is 16 - 5?",
+      "answer": 11
+    },
+    {
+      "question": "What is 35 - 4?",
+      "answer": 31
+    },
+    {
+      "question": "What is 43 + 26?",
+      "answer": 69
+    },
+    {
+      "question": "What is 5 + 3?",
+      "answer": 8
+    },
+    {
+      "question": "What is 3 X 8?",
+      "answer": 24
+    },
+    {
+      "question": "What is 18 - 1?",
+      "answer": 17
+    },
+    {
+      "question": "What is 3 X 5?",
+      "answer": 15
+    },
+    {
+      "question": "What is 1/4 of 100?",
+      "answer": 25
+    },
+    {
+      "question": "What is 2 X 10?",
+      "answer": 20
+    },
+    {
+      "question": "What is 69 - 4?",
+      "answer": 65
+    },
+    {
+      "question": "What is 14 + 83?",
+      "answer": 97
+    },
+    {
+      "question": "What is 18 + 30?",
+      "answer": 48
+    },
+    {
+      "question": "What is 84 - 3?",
+      "answer": 81
+    },
+    {
+      "question": "What is 1/4 of 20?",
+      "answer": 5
+    },
+    {
+      "question": "What is 2 X 12?",
+      "answer": 24
+    },
+    {
+      "question": "What is 72 + 14?",
+      "answer": 86
+    },
+    {
+      "question": "What is 1 + 25?",
+      "answer": 26
+    },
+    {
+      "question": "What is 57 - 6?",
+      "answer": 51
+    },
+    {
+      "question": "What is 12 + 30?",
+      "answer": 42
+    },
+    {
+      "question": "What is 60 + 28?",
+      "answer": 88
+    },
+    {
+      "question": "What is 1/4 of 28?",
+      "answer": 7
+    },
+    {
+      "question": "What is 35 + 2?",
+      "answer": 37
+    },
+    {
+      "question": "What is 1/4 of 12?",
+      "answer": 3
+    },
+    {
+      "question": "What is 1/4 of 92?",
+      "answer": 23
+    },
+    {
+      "question": "What is 1/2 of 82?",
+      "answer": 41
+    },
+    {
+      "question": "What is 5 X 9?",
+      "answer": 45
+    },
+    {
+      "question": "What is 10 X 1?",
+      "answer": 10
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 2 X 12?",
+      "answer": 24
+    },
+    {
+      "question": "What is 23 - 1?",
+      "answer": 22
+    },
+    {
+      "question": "What is 4 + 73?",
+      "answer": 77
+    },
+    {
+      "question": "What is 3 X 6?",
+      "answer": 18
+    },
+    {
+      "question": "What is 28 + 2?",
+      "answer": 30
+    },
+    {
+      "question": "What is 5 X 9?",
+      "answer": 45
+    },
+    {
+      "question": "What is 72 + 22?",
+      "answer": 94
+    },
+    {
+      "question": "What is 1/2 of 32?",
+      "answer": 16
+    },
+    {
+      "question": "What is 10 X 3?",
+      "answer": 30
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 1/2 of 72?",
+      "answer": 36
+    },
+    {
+      "question": "What is 1/2 of 42?",
+      "answer": 21
+    },
+    {
+      "question": "What is 24 + 12?",
+      "answer": 36
+    },
+    {
+      "question": "What is 26 - 4?",
+      "answer": 22
+    },
+    {
+      "question": "What is 38 - 2?",
+      "answer": 36
+    },
+    {
+      "question": "What is 1/4 of 28?",
+      "answer": 7
+    },
+    {
+      "question": "What is 2 X 10?",
+      "answer": 20
+    },
+    {
+      "question": "What is 10 X 6?",
+      "answer": 60
+    },
+    {
+      "question": "What is 51 - 1?",
+      "answer": 50
+    },
+    {
+      "question": "What is 1/4 of 24?",
+      "answer": 6
+    },
+    {
+      "question": "What is 21 - 1?",
+      "answer": 20
+    },
+    {
+      "question": "What is 32 + 59?",
+      "answer": 91
+    },
+    {
+      "question": "What is 53 + 45?",
+      "answer": 98
+    },
+    {
+      "question": "What is 71 + 19?",
+      "answer": 90
+    },
+    {
+      "question": "What is 55 + 42?",
+      "answer": 97
+    },
+    {
+      "question": "What is 3 X 12?",
+      "answer": 36
+    },
+    {
+      "question": "What is 1/2 of 26?",
+      "answer": 13
+    },
+    {
+      "question": "What is 10 X 11?",
+      "answer": 110
+    },
+    {
+      "question": "What is 61 + 3?",
+      "answer": 64
+    },
+    {
+      "question": "What is 17 - 5?",
+      "answer": 12
+    },
+    {
+      "question": "What is 1/2 of 52?",
+      "answer": 26
+    },
+    {
+      "question": "What is 58 + 33?",
+      "answer": 91
+    },
+    {
+      "question": "What is 1/4 of 100?",
+      "answer": 25
+    },
+    {
+      "question": "What is 1/2 of 26?",
+      "answer": 13
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 1/2 of 28?",
+      "answer": 14
+    },
+    {
+      "question": "What is 1/2 of 22?",
+      "answer": 11
+    },
+    {
+      "question": "What is 3 X 7?",
+      "answer": 21
+    },
+    {
+      "question": "What is 5 X 10?",
+      "answer": 50
+    },
+    {
+      "question": "What is 3 X 1?",
+      "answer": 3
+    },
+    {
+      "question": "What is 10 X 10?",
+      "answer": 100
+    },
+    {
+      "question": "What is 42 - 1?",
+      "answer": 41
+    },
+    {
+      "question": "What is 53 + 22?",
+      "answer": 75
+    },
+    {
+      "question": "What is 33 - 2?",
+      "answer": 31
+    },
+    {
+      "question": "What is 10 X 5?",
+      "answer": 50
+    },
+    {
+      "question": "What is 3 X 2?",
+      "answer": 6
+    },
+    {
+      "question": "What is 30 + 41?",
+      "answer": 71
+    },
+    {
+      "question": "What is 1/4 of 100?",
+      "answer": 25
+    },
+    {
+      "question": "What is 76 - 1?",
+      "answer": 75
+    },
+    {
+      "question": "What is 10 X 9?",
+      "answer": 90
+    },
+    {
+      "question": "What is 5 X 6?",
+      "answer": 30
+    },
+    {
+      "question": "What is 16 - 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 1/4 of 56?",
+      "answer": 14
+    },
+    {
+      "question": "What is 46 - 4?",
+      "answer": 42
+    },
+    {
+      "question": "What is 1/2 of 60?",
+      "answer": 30
+    },
+    {
+      "question": "What is 57 - 3?",
+      "answer": 54
+    },
+    {
+      "question": "What is 1/2 of 84?",
+      "answer": 42
+    },
+    {
+      "question": "What is 38 - 1?",
+      "answer": 37
+    },
+    {
+      "question": "What is 2 X 5?",
+      "answer": 10
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/2 of 8?",
+      "answer": 4
+    },
+    {
+      "question": "What is 81 + 16?",
+      "answer": 97
+    },
+    {
+      "question": "What is 58 + 13?",
+      "answer": 71
+    },
+    {
+      "question": "What is 48 - 8?",
+      "answer": 40
+    },
+    {
+      "question": "What is 84 - 2?",
+      "answer": 82
+    },
+    {
+      "question": "What is 2 X 10?",
+      "answer": 20
+    },
+    {
+      "question": "What is 2 X 2?",
+      "answer": 4
+    },
+    {
+      "question": "What is 1/2 of 46?",
+      "answer": 23
+    },
+    {
+      "question": "What is 1/2 of 60?",
+      "answer": 30
+    },
+    {
+      "question": "What is 15 + 62?",
+      "answer": 77
+    },
+    {
+      "question": "What is 1/4 of 12?",
+      "answer": 3
+    },
+    {
+      "question": "What is 1/4 of 72?",
+      "answer": 18
+    },
+    {
+      "question": "What is 17 - 5?",
+      "answer": 12
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 42 - 2?",
+      "answer": 40
+    },
+    {
+      "question": "What is 54 + 42?",
+      "answer": 96
+    },
+    {
+      "question": "What is 1/4 of 4?",
+      "answer": 1
+    },
+    {
+      "question": "What is 10 X 8?",
+      "answer": 80
+    },
+    {
+      "question": "What is 2 X 2?",
+      "answer": 4
+    },
+    {
+      "question": "What is 96 + 1?",
+      "answer": 97
+    },
+    {
+      "question": "What is 3 X 12?",
+      "answer": 36
+    },
+    {
+      "question": "What is 41 - 1?",
+      "answer": 40
+    },
+    {
+      "question": "What is 1/2 of 32?",
+      "answer": 16
+    },
+    {
+      "question": "What is 1/4 of 92?",
+      "answer": 23
+    },
+    {
+      "question": "What is 78 - 2?",
+      "answer": 76
+    },
+    {
+      "question": "What is 1/2 of 82?",
+      "answer": 41
+    },
+    {
+      "question": "What is 53 + 19?",
+      "answer": 72
+    },
+    {
+      "question": "What is 5 X 6?",
+      "answer": 30
+    },
+    {
+      "question": "What is 5 X 9?",
+      "answer": 45
+    },
+    {
+      "question": "What is 5 X 1?",
+      "answer": 5
+    },
+    {
+      "question": "What is 34 - 4?",
+      "answer": 30
+    },
+    {
+      "question": "What is 87 + 1?",
+      "answer": 88
+    },
+    {
+      "question": "What is 57 + 37?",
+      "answer": 94
+    },
+    {
+      "question": "What is 5 X 10?",
+      "answer": 50
+    },
+    {
+      "question": "What is 29 + 32?",
+      "answer": 61
+    },
+    {
+      "question": "What is 2 X 11?",
+      "answer": 22
+    },
+    {
+      "question": "What is 2 + 53?",
+      "answer": 55
+    },
+    {
+      "question": "What is 96 + 3?",
+      "answer": 99
+    },
+    {
+      "question": "What is 85 - 2?",
+      "answer": 83
+    },
+    {
+      "question": "What is 1/4 of 8?",
+      "answer": 2
+    },
+    {
+      "question": "What is 1/2 of 50?",
+      "answer": 25
+    },
+    {
+      "question": "What is 2 X 6?",
+      "answer": 12
+    },
+    {
+      "question": "What is 1/2 of 54?",
+      "answer": 27
+    },
+    {
+      "question": "What is 1/4 of 16?",
+      "answer": 4
+    },
+    {
+      "question": "What is 3 X 7?",
+      "answer": 21
+    },
+    {
+      "question": "What is 3 X 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 90 + 1?",
+      "answer": 91
+    },
+    {
+      "question": "What is 27 + 9?",
+      "answer": 36
+    },
+    {
+      "question": "What is 47 - 6?",
+      "answer": 41
+    },
+    {
+      "question": "What is 44 - 1?",
+      "answer": 43
+    },
+    {
+      "question": "What is 10 X 10?",
+      "answer": 100
+    },
+    {
+      "question": "What is 1/2 of 42?",
+      "answer": 21
+    },
+    {
+      "question": "What is 11 + 12?",
+      "answer": 23
+    },
+    {
+      "question": "What is 35 - 2?",
+      "answer": 33
+    },
+    {
+      "question": "What is 38 + 27?",
+      "answer": 65
+    },
+    {
+      "question": "What is 1/4 of 100?",
+      "answer": 25
+    },
+    {
+      "question": "What is 3 X 5?",
+      "answer": 15
+    },
+    {
+      "question": "What is 32 + 60?",
+      "answer": 92
+    },
+    {
+      "question": "What is 16 - 5?",
+      "answer": 11
+    },
+    {
+      "question": "What is 1/4 of 40?",
+      "answer": 10
+    },
+    {
+      "question": "What is 2 X 4?",
+      "answer": 8
+    },
+    {
+      "question": "What is 12 + 55?",
+      "answer": 67
+    },
+    {
+      "question": "What is 6 + 15?",
+      "answer": 21
+    },
+    {
+      "question": "What is 29 - 9?",
+      "answer": 20
+    },
+    {
+      "question": "What is 1/2 of 86?",
+      "answer": 43
+    },
+    {
+      "question": "What is 1/2 of 68?",
+      "answer": 34
+    },
+    {
+      "question": "What is 85 + 3?",
+      "answer": 88
+    },
+    {
+      "question": "What is 79 + 15?",
+      "answer": 94
+    },
+    {
+      "question": "What is 38 + 47?",
+      "answer": 85
+    },
+    {
+      "question": "What is 34 - 3?",
+      "answer": 31
+    },
+    {
+      "question": "What is 48 - 4?",
+      "answer": 44
+    },
+    {
+      "question": "What is 65 + 1?",
+      "answer": 66
+    },
+    {
+      "question": "What is 29 + 60?",
+      "answer": 89
+    },
+    {
+      "question": "What is 22 + 29?",
+      "answer": 51
+    },
+    {
+      "question": "What is 72 - 1?",
+      "answer": 71
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 2 X 3?",
+      "answer": 6
+    },
+    {
+      "question": "What is 12 - 1?",
+      "answer": 11
+    },
+    {
+      "question": "What is 1/2 of 10?",
+      "answer": 5
+    },
+    {
+      "question": "What is 55 - 3?",
+      "answer": 52
+    },
+    {
+      "question": "What is 42 + 42?",
+      "answer": 84
+    },
+    {
+      "question": "What is 10 X 4?",
+      "answer": 40
+    },
+    {
+      "question": "What is 1/4 of 76?",
+      "answer": 19
+    },
+    {
+      "question": "What is 1/2 of 96?",
+      "answer": 48
+    },
+    {
+      "question": "What is 3 X 12?",
+      "answer": 36
+    },
+    {
+      "question": "What is 34 - 3?",
+      "answer": 31
+    },
+    {
+      "question": "What is 3 X 2?",
+      "answer": 6
+    },
+    {
+      "question": "What is 34 - 3?",
+      "answer": 31
+    },
+    {
+      "question": "What is 45 + 18?",
+      "answer": 63
+    },
+    {
+      "question": "What is 94 + 4?",
+      "answer": 98
+    },
+    {
+      "question": "What is 51 + 8?",
+      "answer": 59
+    },
+    {
+      "question": "What is 1/2 of 28?",
+      "answer": 14
+    },
+    {
+      "question": "What is 48 - 8?",
+      "answer": 40
+    },
+    {
+      "question": "What is 47 - 2?",
+      "answer": 45
+    },
+    {
+      "question": "What is 1/4 of 84?",
+      "answer": 21
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 4 + 40?",
+      "answer": 44
+    },
+    {
+      "question": "What is 2 X 12?",
+      "answer": 24
+    },
+    {
+      "question": "What is 32 + 63?",
+      "answer": 95
+    },
+    {
+      "question": "What is 52 + 46?",
+      "answer": 98
+    },
+    {
+      "question": "What is 47 + 38?",
+      "answer": 85
+    },
+    {
+      "question": "What is 5 X 1?",
+      "answer": 5
+    },
+    {
+      "question": "What is 5 X 11?",
+      "answer": 55
+    },
+    {
+      "question": "What is 10 X 6?",
+      "answer": 60
+    },
+    {
+      "question": "What is 12 - 1?",
+      "answer": 11
+    },
+    {
+      "question": "What is 2 X 4?",
+      "answer": 8
+    },
+    {
+      "question": "What is 23 - 2?",
+      "answer": 21
+    },
+    {
+      "question": "What is 18 + 49?",
+      "answer": 67
+    },
+    {
+      "question": "What is 3 + 77?",
+      "answer": 80
+    },
+    {
+      "question": "What is 3 + 48?",
+      "answer": 51
+    },
+    {
+      "question": "What is 1/2 of 82?",
+      "answer": 41
+    },
+    {
+      "question": "What is 1/4 of 56?",
+      "answer": 14
+    },
+    {
+      "question": "What is 1/4 of 60?",
+      "answer": 15
+    },
+    {
+      "question": "What is 5 X 8?",
+      "answer": 40
+    },
+    {
+      "question": "What is 34 - 1?",
+      "answer": 33
+    },
+    {
+      "question": "What is 2 X 4?",
+      "answer": 8
+    },
+    {
+      "question": "What is 3 + 69?",
+      "answer": 72
+    },
+    {
+      "question": "What is 52 - 2?",
+      "answer": 50
+    },
+    {
+      "question": "What is 8 + 56?",
+      "answer": 64
+    },
+    {
+      "question": "What is 3 X 3?",
+      "answer": 9
+    },
+    {
+      "question": "What is 63 + 23?",
+      "answer": 86
+    },
+    {
+      "question": "What is 3 X 8?",
+      "answer": 24
+    },
+    {
+      "question": "What is 5 X 7?",
+      "answer": 35
+    },
+    {
+      "question": "What is 1/2 of 16?",
+      "answer": 8
+    },
+    {
+      "question": "What is 3 X 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 1/2 of 80?",
+      "answer": 40
+    },
+    {
+      "question": "What is 44 + 14?",
+      "answer": 58
+    },
+    {
+      "question": "What is 1/4 of 36?",
+      "answer": 9
+    },
+    {
+      "question": "What is 3 X 5?",
+      "answer": 15
+    },
+    {
+      "question": "What is 48 - 2?",
+      "answer": 46
+    },
+    {
+      "question": "What is 17 - 5?",
+      "answer": 12
+    },
+    {
+      "question": "What is 2 + 8?",
+      "answer": 10
+    },
+    {
+      "question": "What is 84 - 4?",
+      "answer": 80
+    },
+    {
+      "question": "What is 68 - 4?",
+      "answer": 64
+    },
+    {
+      "question": "What is 10 X 9?",
+      "answer": 90
+    },
+    {
+      "question": "What is 5 X 1?",
+      "answer": 5
+    },
+    {
+      "question": "What is 3 X 7?",
+      "answer": 21
+    },
+    {
+      "question": "What is 19 - 8?",
+      "answer": 11
+    },
+    {
+      "question": "What is 69 + 18?",
+      "answer": 87
+    },
+    {
+      "question": "What is 66 + 30?",
+      "answer": 96
+    },
+    {
+      "question": "What is 96 - 3?",
+      "answer": 93
+    },
+    {
+      "question": "What is 5 X 7?",
+      "answer": 35
+    },
+    {
+      "question": "What is 1/4 of 32?",
+      "answer": 8
+    },
+    {
+      "question": "What is 5 X 3?",
+      "answer": 15
+    },
+    {
+      "question": "What is 14 - 2?",
+      "answer": 12
+    },
+    {
+      "question": "What is 3 X 8?",
+      "answer": 24
+    },
+    {
+      "question": "What is 1/2 of 86?",
+      "answer": 43
+    },
+    {
+      "question": "What is 2 X 8?",
+      "answer": 16
+    },
+    {
+      "question": "What is 5 X 8?",
+      "answer": 40
+    },
+    {
+      "question": "What is 15 - 2?",
+      "answer": 13
+    },
+    {
+      "question": "What is 1/4 of 100?",
+      "answer": 25
+    },
+    {
+      "question": "What is 3 X 8?",
+      "answer": 24
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 34 + 48?",
+      "answer": 82
+    },
+    {
+      "question": "What is 54 - 3?",
+      "answer": 51
+    },
+    {
+      "question": "What is 70 + 13?",
+      "answer": 83
+    },
+    {
+      "question": "What is 24 + 58?",
+      "answer": 82
+    },
+    {
+      "question": "What is 2 X 12?",
+      "answer": 24
+    },
+    {
+      "question": "What is 20 + 17?",
+      "answer": 37
+    },
+    {
+      "question": "What is 38 + 35?",
+      "answer": 73
+    },
+    {
+      "question": "What is 1/2 of 72?",
+      "answer": 36
+    },
+    {
+      "question": "What is 6 + 29?",
+      "answer": 35
+    },
+    {
+      "question": "What is 2 X 2?",
+      "answer": 4
+    },
+    {
+      "question": "What is 48 + 36?",
+      "answer": 84
+    },
+    {
+      "question": "What is 84 + 2?",
+      "answer": 86
+    },
+    {
+      "question": "What is 30 + 49?",
+      "answer": 79
+    },
+    {
+      "question": "What is 18 - 4?",
+      "answer": 14
+    },
+    {
+      "question": "What is 52 + 15?",
+      "answer": 67
+    },
+    {
+      "question": "What is 12 - 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/2 of 90?",
+      "answer": 45
+    },
+    {
+      "question": "What is 25 - 3?",
+      "answer": 22
+    },
+    {
+      "question": "What is 1/4 of 92?",
+      "answer": 23
+    },
+    {
+      "question": "What is 3 X 3?",
+      "answer": 9
+    },
+    {
+      "question": "What is 2 X 6?",
+      "answer": 12
+    },
+    {
+      "question": "What is 78 + 1?",
+      "answer": 79
+    },
+    {
+      "question": "What is 2 X 1?",
+      "answer": 2
+    },
+    {
+      "question": "What is 2 X 8?",
+      "answer": 16
+    },
+    {
+      "question": "What is 1/2 of 54?",
+      "answer": 27
+    },
+    {
+      "question": "What is 84 - 1?",
+      "answer": 83
+    },
+    {
+      "question": "What is 1/2 of 10?",
+      "answer": 5
+    },
+    {
+      "question": "What is 45 + 11?",
+      "answer": 56
+    },
+    {
+      "question": "What is 28 + 41?",
+      "answer": 69
+    },
+    {
+      "question": "What is 1/4 of 76?",
+      "answer": 19
+    },
+    {
+      "question": "What is 1/4 of 84?",
+      "answer": 21
+    },
+    {
+      "question": "What is 5 X 9?",
+      "answer": 45
+    },
+    {
+      "question": "What is 5 X 1?",
+      "answer": 5
+    },
+    {
+      "question": "What is 67 - 7?",
+      "answer": 60
+    },
+    {
+      "question": "What is 62 + 26?",
+      "answer": 88
+    },
+    {
+      "question": "What is 1/4 of 96?",
+      "answer": 24
+    },
+    {
+      "question": "What is 3 X 10?",
+      "answer": 30
+    },
+    {
+      "question": "What is 10 X 10?",
+      "answer": 100
+    },
+    {
+      "question": "What is 3 X 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 39 - 4?",
+      "answer": 35
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 68 - 8?",
+      "answer": 60
+    },
+    {
+      "question": "What is 29 + 29?",
+      "answer": 58
+    },
+    {
+      "question": "What is 6 + 11?",
+      "answer": 17
+    },
+    {
+      "question": "What is 2 X 6?",
+      "answer": 12
+    },
+    {
+      "question": "What is 85 - 4?",
+      "answer": 81
+    },
+    {
+      "question": "What is 91 + 2?",
+      "answer": 93
+    },
+    {
+      "question": "What is 85 - 5?",
+      "answer": 80
+    },
+    {
+      "question": "What is 3 X 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 2 X 7?",
+      "answer": 14
+    },
+    {
+      "question": "What is 2 X 1?",
+      "answer": 2
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 5 X 6?",
+      "answer": 30
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/2 of 68?",
+      "answer": 34
+    },
+    {
+      "question": "What is 3 + 49?",
+      "answer": 52
+    },
+    {
+      "question": "What is 1/4 of 76?",
+      "answer": 19
+    },
+    {
+      "question": "What is 10 X 5?",
+      "answer": 50
+    },
+    {
+      "question": "What is 3 X 8?",
+      "answer": 24
+    },
+    {
+      "question": "What is 67 - 5?",
+      "answer": 62
+    },
+    {
+      "question": "What is 5 X 11?",
+      "answer": 55
+    },
+    {
+      "question": "What is 1/2 of 66?",
+      "answer": 33
+    },
+    {
+      "question": "What is 5 X 10?",
+      "answer": 50
+    },
+    {
+      "question": "What is 94 + 5?",
+      "answer": 99
+    },
+    {
+      "question": "What is 1/2 of 20?",
+      "answer": 10
+    },
+    {
+      "question": "What is 40 + 11?",
+      "answer": 51
+    },
+    {
+      "question": "What is 10 X 9?",
+      "answer": 90
+    },
+    {
+      "question": "What is 2 X 11?",
+      "answer": 22
+    },
+    {
+      "question": "What is 1/2 of 62?",
+      "answer": 31
+    },
+    {
+      "question": "What is 1/2 of 60?",
+      "answer": 30
+    },
+    {
+      "question": "What is 8 + 74?",
+      "answer": 82
+    },
+    {
+      "question": "What is 52 + 33?",
+      "answer": 85
+    },
+    {
+      "question": "What is 1/2 of 50?",
+      "answer": 25
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 54 + 30?",
+      "answer": 84
+    },
+    {
+      "question": "What is 10 X 11?",
+      "answer": 110
+    },
+    {
+      "question": "What is 98 + 1?",
+      "answer": 99
+    },
+    {
+      "question": "What is 5 X 11?",
+      "answer": 55
+    },
+    {
+      "question": "What is 10 X 1?",
+      "answer": 10
+    },
+    {
+      "question": "What is 21 - 1?",
+      "answer": 20
+    },
+    {
+      "question": "What is 55 + 40?",
+      "answer": 95
+    },
+    {
+      "question": "What is 5 X 7?",
+      "answer": 35
+    },
+    {
+      "question": "What is 87 - 5?",
+      "answer": 82
+    },
+    {
+      "question": "What is 10 X 7?",
+      "answer": 70
+    },
+    {
+      "question": "What is 14 - 3?",
+      "answer": 11
+    },
+    {
+      "question": "What is 1/4 of 12?",
+      "answer": 3
+    },
+    {
+      "question": "What is 3 X 11?",
+      "answer": 33
+    },
+    {
+      "question": "What is 42 - 1?",
+      "answer": 41
+    },
+    {
+      "question": "What is 39 + 26?",
+      "answer": 65
+    },
+    {
+      "question": "What is 3 X 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 85 + 12?",
+      "answer": 97
+    },
+    {
+      "question": "What is 42 + 33?",
+      "answer": 75
+    },
+    {
+      "question": "What is 24 + 41?",
+      "answer": 65
+    },
+    {
+      "question": "What is 10 X 4?",
+      "answer": 40
+    },
+    {
+      "question": "What is 10 X 8?",
+      "answer": 80
+    },
+    {
+      "question": "What is 25 - 1?",
+      "answer": 24
+    },
+    {
+      "question": "What is 5 X 2?",
+      "answer": 10
+    },
+    {
+      "question": "What is 12 - 1?",
+      "answer": 11
+    },
+    {
+      "question": "What is 1/4 of 4?",
+      "answer": 1
+    },
+    {
+      "question": "What is 62 - 1?",
+      "answer": 61
+    },
+    {
+      "question": "What is 10 X 8?",
+      "answer": 80
+    },
+    {
+      "question": "What is 5 X 4?",
+      "answer": 20
+    },
+    {
+      "question": "What is 59 + 12?",
+      "answer": 71
+    },
+    {
+      "question": "What is 70 + 7?",
+      "answer": 77
+    },
+    {
+      "question": "What is 10 X 10?",
+      "answer": 100
+    },
+    {
+      "question": "What is 59 - 8?",
+      "answer": 51
+    },
+    {
+      "question": "What is 3 X 5?",
+      "answer": 15
+    },
+    {
+      "question": "What is 61 + 16?",
+      "answer": 77
+    },
+    {
+      "question": "What is 90 + 8?",
+      "answer": 98
+    },
+    {
+      "question": "What is 16 - 1?",
+      "answer": 15
+    },
+    {
+      "question": "What is 77 + 17?",
+      "answer": 94
+    },
+    {
+      "question": "What is 5 X 4?",
+      "answer": 20
+    },
+    {
+      "question": "What is 57 + 10?",
+      "answer": 67
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 74 + 3?",
+      "answer": 77
+    },
+    {
+      "question": "What is 28 + 53?",
+      "answer": 81
+    },
+    {
+      "question": "What is 3 X 7?",
+      "answer": 21
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 10 X 8?",
+      "answer": 80
+    },
+    {
+      "question": "What is 26 - 4?",
+      "answer": 22
+    },
+    {
+      "question": "What is 53 + 19?",
+      "answer": 72
+    },
+    {
+      "question": "What is 1/2 of 74?",
+      "answer": 37
+    },
+    {
+      "question": "What is 25 + 40?",
+      "answer": 65
+    },
+    {
+      "question": "What is 16 - 2?",
+      "answer": 14
+    },
+    {
+      "question": "What is 90 + 4?",
+      "answer": 94
+    },
+    {
+      "question": "What is 1/2 of 14?",
+      "answer": 7
+    },
+    {
+      "question": "What is 5 X 8?",
+      "answer": 40
+    },
+    {
+      "question": "What is 1/4 of 12?",
+      "answer": 3
+    },
+    {
+      "question": "What is 5 X 8?",
+      "answer": 40
+    },
+    {
+      "question": "What is 68 - 4?",
+      "answer": 64
+    },
+    {
+      "question": "What is 73 + 9?",
+      "answer": 82
+    },
+    {
+      "question": "What is 3 X 6?",
+      "answer": 18
+    },
+    {
+      "question": "What is 45 + 22?",
+      "answer": 67
+    },
+    {
+      "question": "What is 41 + 18?",
+      "answer": 59
+    },
+    {
+      "question": "What is 2 X 10?",
+      "answer": 20
+    },
+    {
+      "question": "What is 13 - 1?",
+      "answer": 12
+    },
+    {
+      "question": "What is 44 - 4?",
+      "answer": 40
+    },
+    {
+      "question": "What is 2 X 9?",
+      "answer": 18
+    },
+    {
+      "question": "What is 15 - 4?",
+      "answer": 11
+    },
+    {
+      "question": "What is 1/2 of 24?",
+      "answer": 12
+    },
+    {
+      "question": "What is 1/2 of 100?",
+      "answer": 50
+    },
+    {
+      "question": "What is 5 X 3?",
+      "answer": 15
+    },
+    {
+      "question": "What is 22 - 1?",
+      "answer": 21
+    },
+    {
+      "question": "What is 1/4 of 92?",
+      "answer": 23
+    },
+    {
+      "question": "What is 27 + 14?",
+      "answer": 41
+    },
+    {
+      "question": "What is 17 - 7?",
+      "answer": 10
+    },
+    {
+      "question": "What is 5 X 12?",
+      "answer": 60
+    },
+    {
+      "question": "What is 17 - 2?",
+      "answer": 15
+    },
+    {
+      "question": "What is 17 + 36?",
+      "answer": 53
+    },
+    {
+      "question": "What is 41 + 51?",
+      "answer": 92
+    },
+    {
+      "question": "What is 1/4 of 88?",
+      "answer": 22
+    },
+    {
+      "question": "What is 3 X 4?",
+      "answer": 12
+    },
+    {
+      "question": "What is 75 + 7?",
+      "answer": 82
+    },
+    {
+      "question": "What is 82 + 1?",
+      "answer": 83
+    },
+    {
+      "question": "What is 43 + 10?",
+      "answer": 53
+    },
+    {
+      "question": "What is 3 X 9?",
+      "answer": 27
+    },
+    {
+      "question": "What is 10 X 5?",
+      "answer": 50
+    },
+    {
+      "question": "What is 1/2 of 88?",
+      "answer": 44
+    },
+    {
+      "question": "What is 1/4 of 68?",
+      "answer": 17
+    },
+    {
+      "question": "What is 10 X 8?",
+      "answer": 80
+    },
+    {
+      "question": "What is 97 + 2?",
+      "answer": 99
+    },
+    {
+      "question": "What is 2 X 8?",
+      "answer": 16
+    },
+    {
+      "question": "What is 10 X 2?",
+      "answer": 20
+    },
+    {
+      "question": "What is 70 + 26?",
+      "answer": 96
+    },
+    {
+      "question": "What is 1/4 of 92?",
+      "answer": 23
+    },
+    {
+      "question": "What is 18 + 61?",
+      "answer": 79
+    },
+    {
+      "question": "What is 81 + 4?",
+      "answer": 85
+    },
+    {
+      "question": "What is 65 + 21?",
+      "answer": 86
+    },
+    {
+      "question": "What is 1/4 of 48?",
+      "answer": 12
+    },
+    {
+      "question": "What is 80 + 14?",
+      "answer": 94
+    },
+    {
+      "question": "What is 10 X 1?",
+      "answer": 10
+    },
+    {
+      "question": "What is 1/4 of 72?",
+      "answer": 18
+    },
+    {
+      "question": "What is 46 - 1?",
+      "answer": 45
+    },
+    {
+      "question": "What is 43 + 25?",
+      "answer": 68
+    },
+    {
+      "question": "What is 39 - 8?",
+      "answer": 31
+    },
+    {
+      "question": "What is 74 + 24?",
+      "answer": 98
+    },
+    {
+      "question": "What is 2 X 10?",
+      "answer": 20
+    },
+    {
+      "question": "What is 10 X 3?",
+      "answer": 30
+    },
+    {
+      "question": "What is 5 X 5?",
+      "answer": 25
+    },
+    {
+      "question": "What is 10 X 5?",
+      "answer": 50
+    },
+    {
+      "question": "What is 1/4 of 12?",
+      "answer": 3
+    },
+    {
+      "question": "What is 10 X 6?",
+      "answer": 60
+    },
+    {
+      "question": "What is 31 + 17?",
+      "answer": 48
+    },
+    {
+      "question": "What is 1/2 of 80?",
+      "answer": 40
+    },
+    {
+      "question": "What is 26 - 5?",
+      "answer": 21
+    },
+    {
+      "question": "What is 8 + 76?",
+      "answer": 84
+    },
+    {
+      "question": "What is 37 + 1?",
+      "answer": 38
+    }
   ]
   
