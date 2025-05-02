@@ -3,6 +3,7 @@ import { Button, TextField, Typography } from '@mui/material';
 import questionsData from '../data/questions.json';
 import Confetti from 'react-confetti';
 import { useWindowSize } from 'react-use'; // to get window dimensions
+import NumericKeypad from './NumericKeypa';
 
 const PlayScreen = ({setScreen}) => {
   const [questions, setQuestions] = useState([]);
@@ -98,15 +99,15 @@ const PlayScreen = ({setScreen}) => {
           sx={{ mb: 2, borderRadius: '12px' }}
           inputProps={{ style: { fontSize: '1.2rem', textAlign: 'center' } }}
         />
-        <Button
-          variant="contained"
-          color="primary"
-          fullWidth
-          onClick={handleSubmit}
-          disabled={userAnswer === ''}
-        >
-          ✅ Submit
-        </Button>
+        <NumericKeypad onKeyPress={(key) => {
+          if (key === '⌫') {
+            setUserAnswer((prev) => prev.slice(0, -1));
+          } else if (key === '➡️') {
+            handleSubmit(); // your existing function
+          } else {
+            setUserAnswer((prev) => prev + key);
+          }
+        }} />
       </>
     )}    
   </>
