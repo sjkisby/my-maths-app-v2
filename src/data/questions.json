@@ -1,0 +1,13 @@
+[
+    { "question": "What is 3 + 4?", "answer": 7 },
+    { "question": "What is 6 - 2?", "answer": 4 },
+    { "question": "What is 5 + 5?", "answer": 10 },
+    { "question": "What is 10 - 3?", "answer": 7 },
+    { "question": "What is 2 + 9?", "answer": 11 },
+    { "question": "What is 8 - 6?", "answer": 2 },
+    { "question": "What is 4 + 1?", "answer": 5 },
+    { "question": "What is 7 - 5?", "answer": 2 },
+    { "question": "What is 1 + 6?", "answer": 7 },
+    { "question": "What is 9 - 4?", "answer": 5 }
+  ]
+  
