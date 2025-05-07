@@ -5,6 +5,9 @@ import Confetti from 'react-confetti';
 import { useWindowSize } from 'react-use'; // to get window dimensions
 import NumericKeypad from './NumericKeypa';
 import AnswerFeedback from './AnswerFeedback';
+import { calculatePoints } from '../utils/calculatePoints';
+import ScoreSubmitScreen from './ScoreSubmitScreen';
+import { saveScore, isHighScore, getLeaderboard } from '../utils/leaderboard';
 
 const PlayScreen = ({setScreen}) => {
   const [questions, setQuestions] = useState([]);
@@ -16,7 +19,6 @@ const PlayScreen = ({setScreen}) => {
   const [questionStartTime, setQuestionStartTime] = useState(null);
   const [points, setPoints] = useState(0);
   const [questionTimeTaken, setQuestionTimeTaken] = useState(0);
-  
   
   const { width, height } = useWindowSize();
 
@@ -38,7 +40,7 @@ const PlayScreen = ({setScreen}) => {
 
     if (isCorrect) {
       setScore(prev => prev + 1);
-      setPoints((currentPoints) => currentPoints + 100 + (timeTaken <= 140 ? 140 - timeTaken : 0));
+      setPoints(currentPoints => currentPoints + calculatePoints(questionTimeTaken).total);
       setFeedback('correct');
     } else {
       setFeedback('incorrect');
@@ -53,7 +55,7 @@ const PlayScreen = ({setScreen}) => {
       } else {
         setIsComplete(true);
       }
-    }, 2000);
+    }, 1500);
   };
   
   const isPerfectScore = isComplete && score === questions.length;
@@ -68,25 +70,32 @@ const PlayScreen = ({setScreen}) => {
     <>
     {isComplete ? (
       <>
-        {isPerfectScore && <Confetti width={width} height={height} />}
-
-        <Typography variant="h4" gutterBottom>
-          🎉 All done!
-        </Typography>
-        <Typography variant="h5">
-          🧮 Your Score: {score} / {questions.length}
-        </Typography>
-        <Typography variant="h6">
-          🧮 Your Points: {Math.floor(points)}
-        </Typography>
-        {isPerfectScore && (
-          <Typography variant="h6" mt={2}>
-            🏅 Perfect Score! You're a math star!
-          </Typography>
-        )}
-        <Button variant="contained" color="secondary" fullWidth onClick={() => handlBackButtonPress()}>
-          Back to Menu
-        </Button>        
+        {isHighScore(points, getLeaderboard()) ? (
+          <>  
+            <Confetti width={width} height={height} />
+            <ScoreSubmitScreen points={Math.floor(points)} onDone={setScreen} saveScore={saveScore} />  
+          </>       
+        ) : (
+          <>
+            <Typography variant="h4" gutterBottom>
+              🎉 All done!
+            </Typography>
+            <Typography variant="h5">
+              🧮 Your Score: {score} / {questions.length}
+            </Typography>
+            <Typography variant="h6">
+              🧮 Your Points: {Math.floor(points)}
+            </Typography>
+            {isPerfectScore && (
+              <Typography variant="h6" mt={2}>
+                🏅 Perfect Score! You're a math star!
+              </Typography>
+            )}
+            <Button variant="contained" color="secondary" fullWidth onClick={() => handlBackButtonPress()}>
+              Back to Menu
+            </Button>   
+          </>  
+        )}     
       </>
     ) : feedback ? (
       <AnswerFeedback feedback={feedback} questionTimeTaken={questionTimeTaken} />

@@ -1,9 +1,9 @@
 import { Card, CardContent, Typography, Box } from '@mui/material';
-import { calculateScore } from '../utils/calculateScore';
+import { calculatePoints } from '../utils/calculatePoints';
 
 const AnswerFeedback = ({ feedback, questionTimeTaken }) => {
   const isCorrect = feedback === 'correct';
-  const {base, bonus, total} = calculateScore(questionTimeTaken);
+  const {base, bonus, total} = calculatePoints(questionTimeTaken);
   
   return (
     <Card
