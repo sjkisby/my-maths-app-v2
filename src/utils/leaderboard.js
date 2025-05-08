@@ -9,8 +9,6 @@ export function getLeaderboard() {
     return current.sort((a, b) => b.score - a.score);
 }
 
-// leaderboard.js
-
 /**
  * Returns true if the score qualifies as a high score.
  * @param {number} score - The score to check.
@@ -18,9 +16,15 @@ export function getLeaderboard() {
  * @returns {boolean}
  */
 export function isHighScore(score, scores) {
-    if (scores.length < 10) return true;
+    if (scores.length < 5) return true;
   
     const lowestHighScore = Math.min(...scores.map(s => s.score));
     return score > lowestHighScore;
-  }
-  
+}
+
+/**
+ * Clears the leaderboard.
+ */
+export function clearLeaderboard() {
+    localStorage.removeItem('leaderboard');
+}

@@ -5,10 +5,15 @@ import Leaderboard from './LeaderboardScreen';
 import SettingsScreen from './SettingsScreen';
 import AboutScreen from './AboutScreen';
 import PlayScreen from './PlayScreen';
+import { getLeaderboard } from '../utils/leaderboard' 
 
 const AppWrapper = () => {
 
   const [screen, setScreen] = useState('Menu'); // 'Menu' | 'Play' | 'Leaderboard' | 'Settings' | 'About'
+
+  const backToMenu = () => {
+    setScreen("Menu");
+  }
 
   return (
     <Box
@@ -37,10 +42,10 @@ const AppWrapper = () => {
         }}
       >
         {screen === 'Menu' && <MenuScreen setScreen={setScreen}  /> }
-        {screen === 'Play' && <PlayScreen setScreen={setScreen} /> }
-        {screen === 'Settings' && <SettingsScreen /> }       
-        {screen === 'Leaderboard' && <Leaderboard /> }
-        {screen === 'About' && <AboutScreen setScreen={setScreen} /> }        
+        {screen === 'Play' && <PlayScreen backToMenu={backToMenu} /> }
+        {screen === 'Settings' && <SettingsScreen backToMenu={backToMenu} /> }       
+        {screen === 'Leaderboard' && <Leaderboard backToMenu={backToMenu} scores={getLeaderboard()} /> }
+        {screen === 'About' && <AboutScreen backToMenu={backToMenu}  /> }        
       </Box>
     </Box>
   );

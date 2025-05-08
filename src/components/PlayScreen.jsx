@@ -9,7 +9,7 @@ import { calculatePoints } from '../utils/calculatePoints';
 import ScoreSubmitScreen from './ScoreSubmitScreen';
 import { saveScore, isHighScore, getLeaderboard } from '../utils/leaderboard';
 
-const PlayScreen = ({setScreen}) => {
+const PlayScreen = ({backToMenu}) => {
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState('');
@@ -60,10 +60,6 @@ const PlayScreen = ({setScreen}) => {
   
   const isPerfectScore = isComplete && score === questions.length;
 
-  const handlBackButtonPress = ()  =>  {
-    setScreen("Menu");
-  }
-
   if (!questions.length) return null;
 
   return (
@@ -73,7 +69,7 @@ const PlayScreen = ({setScreen}) => {
         {isHighScore(points, getLeaderboard()) ? (
           <>  
             <Confetti width={width} height={height} />
-            <ScoreSubmitScreen points={Math.floor(points)} onDone={setScreen} saveScore={saveScore} />  
+            <ScoreSubmitScreen points={Math.floor(points)} onDone={backToMenu} saveScore={saveScore} />  
           </>       
         ) : (
           <>
@@ -91,7 +87,7 @@ const PlayScreen = ({setScreen}) => {
                 🏅 Perfect Score! You're a math star!
               </Typography>
             )}
-            <Button variant="contained" color="secondary" fullWidth onClick={() => handlBackButtonPress()}>
+            <Button variant="contained" color="secondary" fullWidth onClick={() => backToMenu()}>
               Back to Menu
             </Button>   
           </>  

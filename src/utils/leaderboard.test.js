@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { saveScore, getLeaderboard, isHighScore } from './leaderboard';
+import { saveScore, getLeaderboard, isHighScore, clearLeaderboard } from './leaderboard';
 
 beforeEach(() => {
   localStorage.clear();
@@ -49,4 +49,13 @@ describe('isHighScore', () => {
     ];
     expect(isHighScore(50, scores)).toBe(false); // 50 is not higher than 50
   });
+});
+
+describe('Leaderboard Utilities', () => {  
+    it('clears the leaderboard', () => {
+        saveScore('TestUser', 100);
+        expect(getLeaderboard().length).toBe(1);
+        clearLeaderboard();
+        expect(getLeaderboard().length).toBe(0);
+    });
 });
